@@ -1,0 +1,9 @@
+# Make a copy of this file as local_settings.py
+# FILL IN THE VARIABLES BELOW WITH YOUR PERTINENT INFORMATION
+
+# Amazon API stuffs
+amazon = {
+		'access_key' : 'FILL_ME_IN',
+		'secret_key' : 'FILL_ME_IN',
+		'affiliate_id' : 'FILL_IN_AFFILIATE_ID'
+	}

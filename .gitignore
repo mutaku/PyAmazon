@@ -1,0 +1,6 @@
+local_settings.py
+*.swp
+*.pyc
+*.e4p
+*.db
+*~
