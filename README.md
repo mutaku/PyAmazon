@@ -1,6 +1,7 @@
 Python wrapper for the Bottlenose Wrapper for the Amazon Product Advertising API
 
 Uses: 
+
 	bottlenose: https://github.com/dlo/bottlenose
 
 
@@ -8,6 +9,7 @@ This is a sort of specialized wrapper for a wrapper (I realize the redundancy) t
 
 
 To start:
+
 	Make a copy of local_settings.py.dist as local_settings.py and edit to fill in your AWS access and secret keys.
 
 
