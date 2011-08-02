@@ -106,7 +106,7 @@ class Search():
 
 		for i in r.getElementsByTagName('Item'):
 
-			item = "Item"+str(next(x)) 
+			item = next(x) 
 			self.parsedXML[item] = {}
 			parseItem = self.parsedXML[item]
 

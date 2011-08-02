@@ -20,6 +20,6 @@ Example usage:
 	import webbrowser
 
 	result = Search(title="The Idea of America",author="Gordon Wood",style="xml")	
-	link = b.parsedXML['Item0']['URL']
+	link = b.parsedXML[0]['URL']
 
 	webbrowser.open(link)
