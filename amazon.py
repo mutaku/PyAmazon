@@ -32,7 +32,7 @@ class Search():
 		# setup the result data type ---> defaults to json using the xml2json stylesheet
 		styles = {
 				"xml" : "XML",
-				"json" : "http://xml2json-xslt.googlecode.com/svn/trunk/xml2json.xslt" # we should host this ourselves then - must be a URL
+				"json" : "xml2json.xslt" # we should host this ourselves then - must be a URL
 			}
 		
 		self.style = styles[self.rawstyle]
